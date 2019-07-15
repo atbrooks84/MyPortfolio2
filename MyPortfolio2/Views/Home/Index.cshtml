@@ -1,0 +1,997 @@
+﻿@{
+
+    Layout = null;
+
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+   
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    
+    <link href="~/Content/stylish-portfolio.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1 style="color: cyan">Well hello there.</h1>
+            <h3 style="color: lightcyan">I'm Adam. Let's talk.</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Let's get started</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>I can't wait to build the exact thing you need to get the job done!</h2>
+                    <p class="lead">All solutions are lovingly handcrafted from the finest code around</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Proficiencies</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                           <div class="row">
+                               <img class="img-responsive" src="~/img/html_icon.png" />
+                           </div>                            
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="row">
+                                <img class="img-responsive" src="~/img/css icon.png" />
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="row">
+                                <img class="img-responsive" src="~/img/javascript icon.png" />
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="row">
+                                <img class="img-responsive" src="~/img/jQuery icon.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <br />
+    <aside class="callout">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                
+                    <img class="img-portfolio img-responsive img-rounded" data-toggle="modal" data-target="#myModal" src="~/img/MuscleManDance2.jpg">
+                   
+                
+            </div>
+
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Projects</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/img/free hugs.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/img/Be Brave.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/img/42.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/img/twinkie.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="#" class="btn btn-dark">View More Items</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Would you like to know more?</h3>
+                    <a href="#" class="btn btn-lg btn-light">Resume</a>
+                    <a href="#" class="btn btn-lg btn-dark">Testimonials</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4>
+                        <strong>Adam Brooks</strong>
+                    </h4>
+                    <p>
+                        116 S High St
+                        <br>Asheboro, NC 27203
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (336)255-9655</li>
+                        <li>
+                            <i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">atbrooks84@gmai.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Play With Noise 2019</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-center">Exercise!</h4>
+                </div>
+
+
+                <div class="modal-body">
+                
+                <ul class="nav nav-pills nav-justified">
+                    <li class="active"><a data-toggle="pill" href="#mathFun">Math Fun</a></li>
+                    <li><a data-toggle="pill" href="#factorial">Fact(orial)s!</a></li>
+                    <li><a data-toggle="pill" href="#palindrome">Words are hard</a></li>
+                    <li><a data-toggle="pill" href="#fizzbuzz">Soda or bee?</a></li>
+                    <li><a data-toggle="pill" href="#sumFear">Sum of all Fears</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="mathFun" class="tab-pane fade in active">
+                        <h3 class="text-center">Math fun</h3>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row text-center h4">
+                                    Load the numbers!
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        Enter number 1
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="number" id="mathnum1" class="form-control" placeholder="Prepare" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        Enter number 2
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="number" id="mathnum2" class="form-control" placeholder="the" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        Enter number 3
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="number" id="mathnum3" class="form-control" placeholder="math" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        Enter number 4
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="number" id="mathnum4" class="form-control" placeholder="cannon" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        Enter number 5
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="number" id="mathnum5" class="form-control" placeholder="!" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row text-center h4">
+                                    <p id="boom" class="output"></p>
+                                </div>
+                                <div class="row">
+                                    <p id="sum" class="output"></p>
+                                </div>
+                                <div class="row">
+                                    <p id="product" class="output"></p>
+                                </div>
+                                <div class="row">
+                                    <p id="lowest" class="output"></p>
+                                </div>
+                                <div class="row">
+                                    <p id="highest" class="output"></p>
+                                </div>
+                                <div class="row">
+                                    <p id="average" class="output"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="row">
+                            <div class="col-md-4">
+                                <button id="btn1" class="btn btn-success text-center nav-justified">Fire the math cannon!</button>
+                            </div>
+                            <div class="col-md-4">
+                                <button id="btn2" class="btn btn-primary text-center nav-justified">Inspect the math cannon!</button>
+                            </div>
+                            <div class="col-md-4">
+                                <button id="btn3" class="btn btn-danger text-center nav-justified">Reload the math cannon!</button>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12-">
+                                <div id="mathCode">
+                                    <pre class="brush: js">
+     $("#btn1").click(function () {
+
+        var num1 = +$("#mathnum1").val();
+        var num2 = +$("#mathnum2").val();
+        var num3 = +$("#mathnum3").val();
+        var num4 = +$("#mathnum4").val();
+        var num5 = +$("#mathnum5").val();
+
+        var sum = num1 + num2 + num3 + num4 + num5
+        var product = num1 * num2 * num3 * num4 * num5
+        var lowest = Math.min(num1, num2, num3, num4, num5)
+        var highest = Math.max(num1, num2, num3, num4, num5)
+        var average = sum / 5
+
+        $("#boom").text("BOOM!")
+        $("#sum").text("The sum is: " + sum + ". Yippee!")
+        $("#product").text("The product is: " + product + ". Horray!")
+        $("#lowest").text("The lowest is: " + lowest + ". Yahoo!")
+        $("#highest").text("The highest is: " + highest + ". Fantastic!")
+        $("#average").text("The average is: " + average + ". Supurb!")
+
+    })
+
+    $("mathCode").hide();
+    $("#btn2").click(function () {
+        ("#mathCode").toggle();
+    })
+
+
+    $("#btn3").click(function () {
+            $(".output").text("");
+            $("#mathnum1, #mathnum2, #mathnum3, #mathnum4, #mathnum5").val("")
+    })
+      
+
+                                        </pre>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <div id="factorial" class="tab-pane fade">
+                        <h3 class="text-center">Get the FACT(orial)S!</h3>
+                        <br />
+
+                        <div class="row">
+                            <div class="col-md-1">
+
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <br />
+                                <br />
+                                <div class="row">
+
+                                    <input id="fact" type="number" placeholder="Gimme a number!" class="form-control nav-justified" />
+                                </div>
+
+
+
+                            </div>
+                            <div class="col-md-1">
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row text-center h3">
+                                    <p id="factoutresult"></p>
+                                </div>
+                                <div class="row text-center h3">
+                                    <p id="factOut"></p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <br />
+                        <br />
+                        <br />
+                        <div class="row">
+                            <div class="col-md-4">
+                                <button id="btn4" class="btn btn-success text-center nav-justified">
+                                    FACTS!
+                                </button>
+                            </div>
+                            <div class="col-md-4">
+                                <button id="btn5" class="btn btn-primary text-center nav-justified">
+                                    Check The Facts!
+                                </button>
+                            </div>
+                            <div class="col-md-4">
+                                <button id="btn6" class="btn btn-danger text-center nav-justified">
+                                    ALTERNATE FACT!
+                                </button>
+
+                            </div>
+
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12-">
+                                <div id="factCode">
+                                    <pre class="brush: js">
+    $("#btn4").click(function () {
+
+        var number = +$("#fact").val();
+
+        if (number > 170) {
+
+            alert("170 or less only there, champ.")
+            $("#fact").val("")
+            return;
+        }
+
+        for (var loop = number - 1; loop > 1; loop--) {
+            number *= loop;
+
+        }
+        $("#factoutresult").text("THE FACT(orial) IS");
+        $("#factOut").text(number);
+    })
+
+    $("#factCode").hide();
+    $("#btn5").click(function () {
+        $("#factCode").toggle();
+
+    })
+
+
+    $("#btn6").click(function () {
+        $("#fact").val("");
+        $("#factOut").text("");
+    })
+
+
+                                        </pre>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="palindrome" class="tab-pane fade">
+                        <h3 class="text-center">Words are hard</h3>
+
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row tinycomment">
+                                    <p class="tinycomment text-muted text-center">We'll ignore any upper case letters or spaces</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-8">
+                                        <input id="palIn" type="text" placeholder="Write a word!" class="form-control" />
+                                    </div>
+                                    <div class="col-sm-2"></div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row text-center h4">
+                                    <p id="palOut"></p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-4">
+                                <button id="btn7" class="btn btn-success text-centered nav-justified form-control">
+                                    Barrel Roll!
+                                </button>
+
+                            </div>
+                            <div class="col-md-4">
+                                <button id="btn8" class="btn btn-primary text-centered nav-justified form-control">
+                                    Summersault!
+                                </button>
+                            </div>
+                            <div class="col-md-4">
+                                <button id="btn9" class="btn btn-danger text-centered nav-justified form-control">
+                                    U Turn!
+                                </button>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12-">
+                                <div id="palCode">
+                                    <pre class="brush: js">
+    $("#btn7").click(function () {
+        var word = $("#palIn").val();
+        var word2 = $("#palIn").val();
+        var word3 = $("#palIn").val();
+        word = word.toLowerCase().replace(/\s/g, '');
+
+        var revword = word.split('').reverse().join('');
+
+        if (word == revword) {
+
+            message = word3 + " reversed is " + word3 + " so its a palindrome!";
+        }
+        else {
+            word2 = word2.split('').reverse().join('');
+
+            message = word3 + " reversed is not " + word2 + " so it isn't a palindrome!"
+        }
+
+        $("#palOut").text(message)
+
+    })
+
+
+    $("#palCode").hide();
+    $("#btn8").click(function () {
+        $("#palCode").toggle();
+    })
+
+
+
+    $("#btn9").click(function () {
+        $("#palIn").val("");
+        $('#palOut').text("");
+    })
+
+
+
+
+}) 
+                                        </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="fizzbuzz" class="tab-pane fade">
+                        <h3 class="text-center">Soda or bee?</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row h4 text-center">
+                                    Put in two numbers
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-8">
+                                        <input id="num1" type="number" placeholder="Soda?" class="form-control" />
+                                    </div>
+                                    <div class="col-sm-2"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-8">
+                                        <input id="num2" type="number" placeholder="Or bee?" class="form-control" />
+                                    </div>
+                                    <div class="col-sm-2"></div>
+                                </div>
+                                <div class="row h4 text-center">
+                                    Now pick where to start and stop
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-8">
+                                        <input id="num3" type="number" placeholder="start" class="form-control" />
+                                    </div>
+                                    <div class="col-sm-2"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-8">
+                                        <input id="num4" type="number" placeholder="stop" class="form-control" />
+                                    </div>
+                                    <div class="col-sm-2"></div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row tinycomment text-center">
+                                    Results
+                                </div>
+                                <div class="row">
+                                    <p id="fbOut"></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-4">
+                                <button id="btn10" class="btn btn-success nav-justified text-center form-control">
+                                    Caffinated Honey!
+                                </button>
+
+                            </div>
+                            <div class="col-md-4">
+                                <button id="btn11" class="btn btn-primary nav-justified text-center form-control">
+                                    Inspect the hive!
+                                </button>
+                            </div>
+                            <div class="col-md-4">
+                                <button id="btn12" class="btn btn-danger nav-justified text-center form-control">
+                                    Pour another one!
+                                </button>
+
+                            </div>
+
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12-">
+                                <div id="codeFB">
+                                    <pre class="brush: js">
+
+    $("#btn10").click(function () {
+        var num1 = $("#num1").val();
+        var num2 = $("#num2").val();
+        var num3 = $("#num3").val();
+        var num4 = $("#num4").val();
+
+        for (var counter = num3, array = [], fizz = 0, buzz = 0; counter <= num4; counter++) {
+
+            fizz = counter % num1;
+            buzz = counter % num2;
+
+            if (!fizz && !buzz)
+                array.push("<span class='fizzbuzz'>FizzBuzz</span>")
+            else if (!fizz)
+                array.push("<span class='fizz'>Fizz</span>")
+            else if (!buzz)
+                array.push("<span class='buzz'>Buzz</span>")
+            else
+                array.push("<span class='counter'>" + counter + "</span>")
+
+        }
+        var output = array.join(', ');
+        $("#fbOut").html(output);
+
+
+    })
+    $("#codeFB").hide();
+    $("#btn11").click(function () {
+        $("#codeFB").toggle();
+    })
+    $("#btn12").click(function () {
+        $("#fbOut").text("");
+        $("#num1, #num2, #num3, #num4").val("")
+    })
+
+
+
+                                        </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="sumFear" class="tab-pane fade">
+                        <h3 class="text-center">Terrible movie, fun program</h3>
+
+                        <div class="row text-center h5">
+                            Put in 6 numbers!
+                        </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    
+                                        <input id="soafnum1" type="number" class="text-center nav-justified input-sum-1 form-control" />
+                                    
+                                </div>
+
+                                <div class="col-md-2">
+                                    
+                                        <input id="soafnum2" type="number" class="text-center nav-justified input-sum-1 form-control" />
+                                    
+                                </div>
+
+
+                                <div class="col-md-2">
+                                        <input id="soafnum3" type="number" class="text-center nav-justified input-sum-1 form-control" />
+                                    
+                                </div>
+
+
+                                <div class="col-md-2">
+                                    
+                                        <input id="soafnum4" type="number" class="text-center nav-justified input-sum-1 form-control" />
+                                    
+                                </div>
+
+
+                                <div class="col-md-2">
+                                    
+                                        <input id="soafnum5" type="number" class="text-center nav-justified input-sum-1 form-control" />
+                                    
+                                </div>
+
+
+
+                                <div class="col-md-2">
+                                    
+                                        <input id="soafnum6" type="number" class="text-center nav-justified input-sum-1 form-control" />
+                                    
+                                </div>
+                            </div>
+
+                            <div class="row text-center h5">
+                                Now put in the sum you want to find!
+                                <div class="row">
+                                    <div class="col-md-5"></div>
+                                    <div class="col-md-2">
+                                        <div c;ass="row text-center">
+                                            <input id="soafnum7" type="number" class="text-center nav-justified input-sum-2 form-control" />
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-5"></div>
+
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <p id="sfOut" style="color: lightseagreen" class="text-center"></p>
+                            </div>
+                            <br />
+                            <br />
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <button id="btn13" class="btn btn-success text-center">The Hunt for Red October</button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button id="btn14" class="btn btn-primary text-center nav-justified">Patriot Games</button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button id="btn15" class="btn btn-danger text-center nav-justified">Clear and Present Danger</button>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12-">
+                                    <div id="sumCode">
+                                        <pre class="brush: js">
+    $("#btn13").click(function () {
+
+        var myArray = new Array();
+
+        myArray.push(+$("#num1").val());
+        myArray.push(+$("#num2").val());
+        myArray.push(+$("#num3").val());
+        myArray.push(+$("#num4").val());
+        myArray.push(+$("#num5").val());
+        myArray.push(+$("#num6").val());
+
+        var kValue = +$("#num7").val();
+        for (index = 0, found = false; index < myArray.length - 1; index++) {
+            var position = myArray.indexOf(kValue - myArray[index], index + 1);
+            if (position > 0) {
+                found = true;
+                break;
+            }
+        }
+
+        if (found) {
+            $("#sfOut").html("<b>" + kValue + "</b> was found by adding array members " + "<span class='target'>" + myArray[index] + "</span> and <span class='target'>" + myArray[position] + "</span>");
+            return;
+        }
+        else {
+
+            $("#sfOut").text("K was not found!");
+        }
+
+
+    })
+    $("#sumCode").hide;
+    $("#btn14").click(function () {
+        $("#sumCode")toggle();
+    })
+
+    $("#btn15").click(function () {
+        $("#sfOut").text("");
+
+
+    })
+     
+      
+
+                                        </pre>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="modal-footer">
+                    <div class="row text-center">Do the muscle man dance!</div>
+                    <div class="row">
+                        <div class="col-md-5">
+
+                        </div>
+                        <div class="col-md-2">
+                            <button type="button" class="btn btn-default nav-justified" data-dismiss="modal">Close</button>
+
+                        </div>
+                        <div class"col-md-5">
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+        </div>
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <
+    <script src="~/Scripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+
+    <script src="~/Scripts/JSExerciseScripts.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script>
+        // Closes the sidebar menu
+        $("#menu-close").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+        // Scrolls to the selected menu item on the page
+        $(function () {
+            $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+        //#to-top button appears after scrolling
+        var fixed = false;
+        $(document).scroll(function () {
+            if ($(this).scrollTop() > 250) {
+                if (!fixed) {
+                    fixed = true;
+                    // $('#to-top').css({position:'fixed', display:'block'});
+                    $('#to-top').show("slow", function () {
+                        $('#to-top').css({
+                            position: 'fixed',
+                            display: 'block'
+                        });
+                    });
+                }
+            } else {
+                if (fixed) {
+                    fixed = false;
+                    $('#to-top').hide("slow", function () {
+                        $('#to-top').css({
+                            display: 'none'
+                        });
+                    });
+                }
+            }
+        });
+        // Disable Google Maps scrolling
+        // See http://stackoverflow.com/a/25904582/1607849
+        // Disable scroll zooming and bind back the click event
+        var onMapMouseleaveHandler = function (event) {
+            var that = $(this);
+            that.on('click', onMapClickHandler);
+            that.off('mouseleave', onMapMouseleaveHandler);
+            that.find('iframe').css("pointer-events", "none");
+        }
+        var onMapClickHandler = function (event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+        $('.map').on('click', onMapClickHandler);</script>
+    <script src="~/Scripts/SyntaxHighlighter/scripts/shCore.js"></script>
+    <script src="~/Scripts/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
+    <script>
+
+        SyntaxHighlighter.all();
+
+    </script>
+</body>
+
+</html>
