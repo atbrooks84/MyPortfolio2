@@ -338,3 +338,29 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+
+.overflow{
+
+    height: 400px;
+    width: 200px;
+    overflow: hidden;
+    overflow: scroll;
+
+
+}
+
+
+.img-portfolio:hover{
+
+    opacity: 0.3;
+    color: blue;
+    
+
+
+}
+
+
+
+
+
